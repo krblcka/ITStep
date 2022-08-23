@@ -1,2 +1,6 @@
-package structural.bridge;public interface Color {
+package structural.bridge;
+
+public interface Color {
+
+    void applyColor();
 }

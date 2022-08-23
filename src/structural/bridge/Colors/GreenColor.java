@@ -1,4 +1,6 @@
-package structural.bridge;
+package structural.bridge.Colors;
+
+import structural.bridge.Color;
 
 public class GreenColor implements Color {
 
@@ -7,6 +9,6 @@ public class GreenColor implements Color {
 
     @Override
     public void applyColor() {
-
+        System.out.println("Green");
     }
 }
